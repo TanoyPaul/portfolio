@@ -860,10 +860,6 @@ video {
   padding: 2rem;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -936,10 +932,6 @@ video {
   font-family: Poppins, sans-serif;
 }
 
-.font-kajiro {
-  font-family: Kajiro, sans-serif;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -977,6 +969,51 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-\[1\.2rem\] {
+  font-size: 1.2rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[8vw\] {
+  font-size: 8vw;
+}
+
+.text-\[5vw\] {
+  font-size: 5vw;
+}
+
+.text-\[6vw\] {
+  font-size: 6vw;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .font-bold {
@@ -1066,6 +1103,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
@@ -1138,10 +1179,6 @@ video {
     height: 20rem;
   }
 
-  .md\:h-32 {
-    height: 8rem;
-  }
-
   .md\:w-2\/5 {
     width: 40%;
   }
@@ -1190,6 +1227,14 @@ video {
 
   .md\:text-\[22px\] {
     font-size: 22px;
+  }
+
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .md\:text-\[36px\] {
+    font-size: 36px;
   }
 }
 

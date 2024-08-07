@@ -6,8 +6,7 @@ module.exports = {
       fontFamily: {
         'amita': ['Amita', 'sans-serif'],
         'kalam': ['Kalam', 'sans-serif'],
-        'poppins': ['Poppins', 'sans-serif'],
-        'kajiro': ['Kajiro', 'sans-serif']
+        'poppins': ['Poppins', 'sans-serif']
       }
     },
   },

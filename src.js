@@ -54,7 +54,7 @@ function marqueAnimation(){
               transform: 'translateX(-50%)',
               duration: 12,
               repeat: -1,
-              ease: 'power3'
+              ease: 'power3.out'
           }
       )
       }
@@ -64,7 +64,7 @@ function marqueAnimation(){
                 transform: 'translateX(0%)',
                 duration: 7,
                 repeat: -1,
-                ease: 'power3'
+                ease: 'power3.out'
             }
         )
       }
@@ -101,10 +101,9 @@ function skillsAnimation(){
       scrollTrigger: {
         trigger: '#skills-images img',
         scroller: 'body',
-        start: 'top 90%'
+        start: 'top 95%',
       },
-      opacity: 0,
-      
+      opacity: 0,     
       scale: 0,
       y: 40,
       stagger: 0.2,
@@ -117,23 +116,20 @@ function skillsAnimation(){
 
 skillsAnimation()
 
-gsap.from(
-  "#projects #project", {
-    scrollTrigger: {
-      trigger: '#projects #project',
-      scroller: 'body',
-      start: 'top 80%'
-    },
-    
+function projectsAnimation(){
+  gsap.from(
+    '#projects #project', {
       y: 200,
-    delay: 1,
-    opacity: 0,
-    scale: 0,
-    duration: 1.6,
-    ease: "back.out"
-  }, {
-    y: 0,
-    opacity: 1,
-    scale: 1
-  }
-)
+      duration: 1.6,
+      opacity: 0,
+      scrollTrigger: {
+        scroller: 'body',
+        trigger: '#projects #project',
+        markers: true,
+        start: 'top 85%'
+      }
+    }
+  )
+}
+
+projectsAnimation()

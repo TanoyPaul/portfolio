@@ -125,7 +125,6 @@ function projectsAnimation(){
       scrollTrigger: {
         scroller: 'body',
         trigger: '#projects #project',
-        markers: true,
         start: 'top 85%'
       }
     }
